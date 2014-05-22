@@ -31,3 +31,14 @@ and open the template in the editor.
 .Champion {
     fill: blue;
 }
+
+body {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.32, whitesmoke), 
+        color-stop(0.66, grey), 
+        color-stop(0.83, #787878));
+}
+
+.lines {
+    stroke-width:1;
+    stroke:black;
+}
