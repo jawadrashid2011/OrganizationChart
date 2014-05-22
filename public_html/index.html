@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Organization Chart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="js/libs/jquery/jquery.js"></script>
+        <script src="js/libs/d3/d3.v3.js"></script>
+        <script src="js/organization.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+    <body>
+        <div id="mainDiv"></div>
+        
+        <script type="text/javascript">
+            var organizationData;
+            var processedData;
+            
+             $(document).ready(function() {
+                loadOrganizationData();
+            });
+        </script>
+    </body>
+</html>
