@@ -19,3 +19,15 @@ and open the template in the editor.
 .personname {
     font-weight: normal;
 }
+
+.DecisionMaker {
+    fill: yellowgreen;
+}
+
+.Navigator {
+    fill: #AFEEEE;
+}
+
+.Champion {
+    fill: blue;
+}
