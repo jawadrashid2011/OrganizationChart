@@ -12,7 +12,7 @@ var loadOrganizationData = function() {
     
      var w = 1200, h = 700;
      var textHeight = 20;
-    d3.json("http://connectionplanner.apiary-mock.com/orgchart/1", function(error, json) {
+    d3.json("/data/data.json", function(error, json) {
         if(error)
             return console.warn("Error: " + error );
         
